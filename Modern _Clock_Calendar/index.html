@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Clock & Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🕒 Digital Clock</h1>
+    <div id="clock"></div>
+
+    <h2 id="date"></h2>
+
+    <!-- Calendar -->
+    <div id="calendar">
+        <div class="calendar-header">
+            <button onclick="prevMonth()">◀</button>
+            <h3 id="monthYear"></h3>
+            <button onclick="nextMonth()">▶</button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+    </div>
+
+    <button onclick="toggleTheme()">🌙 Toggle Theme</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
